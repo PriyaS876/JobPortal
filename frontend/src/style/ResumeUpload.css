@@ -1,0 +1,74 @@
+/* src/style/resumeUpload.css */
+
+.resume-upload-container {
+  background-color: #ffffff;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.resume-upload-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e3a8a; /* Indigo-900 */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.file-input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.upload-button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #1f2937; /* Gray-800 */
+}
+
+.skills-list {
+  margin-top: 1.5rem;
+}
+
+.skills-list h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #111827; /* Gray-900 */
+  margin-bottom: 0.5rem;
+}
+
+.skills-list ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.skills-list li {
+  font-size: 0.95rem;
+  color: #374151; /* Gray-700 */
+  margin-bottom: 0.3rem;
+}
+
+.error-message {
+  color: #dc2626; /* Red-600 */
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}

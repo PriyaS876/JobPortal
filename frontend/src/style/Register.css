@@ -1,0 +1,57 @@
+/* src/style/register.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-container {
+  background-color: white;
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+}
+
+.register-header {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #1e40af; /* Blue-800 */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.register-input {
+  border: 1px solid #cbd5e1; /* slate-300 */
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.register-input:focus {
+  border-color: #2563eb; /* Blue-600 */
+}
+
+.register-button {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 500;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #1d4ed8;
+}
+
+.register-error {
+  color: #dc2626; /* Red-600 */
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
